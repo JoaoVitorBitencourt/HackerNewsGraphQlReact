@@ -31,7 +31,6 @@ const LOGIN_MUTATION = gql`
 `;
 
 const Login = () => {
-  debugger;
   const navigate = useNavigate();
   const [formState, setFormState] = useState({
     login: true,
